@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.setlogo {
+    background-color: #25213d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fixlogo {
+    height: 50px;
+}
+
+.ak47 {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.bgclr {
+    background: linear-gradient(39deg, #25213d, #2d2849);
+    padding-bottom: 100px;
+}
+
+.vshd {
+    font-weight: 900;
+    font-size: 2.8rem;
+}
+
+.awmm {
+    background: -webkit-linear-gradient(315deg, #8ED925 0%, #2ABEDF 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.ftsize {
+    font-size: 18px;
+    align-items: center;
+}
+
+.size1font {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.size1fon2 {
+    font-size: 12px;
+}
+
+.bgcolor {
+    background-color: #0000004f;
+    border-radius: 14px;
+}
+
+
+.setbutton {
+
+    background: linear-gradient(-45deg, #3C36CB, #2ABEDF, #E4F651, #45A20C);
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;
+
+    border-radius: 20px;
+
+
+}
+
+.asas {
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    padding: 15px 30px;
+    background: linear-gradient(-45deg, #3C36CB, #2ABEDF, #E4F651, #45A20C);
+    background-size: 400% 400%;
+    animation: ankit 4s ease infinite;
+    border-radius: 20px;
+}
+
+@keyframes ankit {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.ass2 {
+    position: relative;
+    background: linear-gradient(175deg, #25213d, #2d2849);
+    height: 100px;
+    border-bottom-left-radius: 50% 19%;
+    border-bottom-right-radius: 50% 19%;
+}
+.clrwhite {
+    background-color: white;
+}
+
+.imgcenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgcenter img {
+    height: 60px;
+}
+
+.curved {
+    background-color: #25213d;
+    border-radius: 11px;
+}
+
+.bgclrr {
+    background: #25213d;
+}
+
+.fixp {
+    color: #2ABEDF;
+    font-size: 22px;
+}
+
+.stylenone {
+    list-style: none;
+
+
+}
+
+.bagda {
+
+    background: -webkit-linear-gradient(315deg, #8ED925 0%, #2ABEDF 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+
+}
+
+.stylenone li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.sizekm {
+    font-size: 15px;
+}
+
+.as {
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    padding: 15px 30px;
+    background: linear-gradient(-45deg, #3C36CB, #2ABEDF, #E4F651, #45A20C);
+    background-size: 400% 400%;
+    animation: sharma 2s infinite;
+    border-radius: 20px;
+}
+
+@keyframes sharma {
+    0% {
+        background-position: 0% 50%;
+        transform: skewY(2deg);
+    }
+
+    50% {
+        background-position: 100% 50%;
+        transform: skewY(-2deg);
+    }
+
+    100% {
+        background-position: 0% 50%;
+        transform: skewY(2deg);
+    }
+
+}
+
+.bgset {
+    background-color: #25213d;
+}
+
+.as12 {
+    position: relative;
+    background: #25213d;
+    height: 50px;
+}
+.as12::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 45px 45px 0 45px;
+    border-color: #25213d transparent transparent transparent;
+    left: 50%;
+    transform: translateX(-50%) translateY(100%);
+}
+.main12 {
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #3C36CB, #2ABEDF) 1;
+}
+.b11 {
+
+    background: linear-gradient(315deg, #2ABEDF 0%, #3C36CB 74%);
+    padding: 5px 20px;
+    border-radius: 10px;
+
+
+}
+
+.assk1 {
+    position: relative;
+    background: #fff;
+    height: 10px;
+}
+.assk1::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: -0%;
+    top: 100%;
+    z-index: 10;
+    display: block;
+    height: 50px;
+    background-size: 50px 100%;
+    background-image: linear-gradient(135deg, #fff 25%, transparent 25%), linear-gradient(225deg, #fff 25%, transparent 25%);
+    background-position: 0 0;
+}
+
+.backclrfix {
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #3C36CB, #2ABEDF)
+}
+
+.fitcool {
+    background: -webkit-linear-gradient(315deg, #8ED925 0%, #2ABEDF 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.rudishbdr{
+    border-radius: 14px;
+}
+.fors{
+    font-weight: 500;
+}
+
+.coustomcss{
+    font-size: 35px;
+}
+
+
+.accordion-button:not(.collapsed) {
+    color: white!important;
+    background-color: #25213d!important;
+ 
+}
+.accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow:unset!important;
+}
+
+.accordion-button::after {
+    background-image: unset!important;
+}
